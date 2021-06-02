@@ -1,8 +1,6 @@
 .DS_Store
 *.pyc
-*.py
 *.exe
-*.txt
 venv/lib/python3.7/site-packages/setuptools-41.2.0.dist-info/zip-safe
 *.xml
 *.tmpl
@@ -24,5 +22,3 @@ venv/bin/easy_install
 venv/bin/pip3
 *.csh
 *.json
-.DS_Store
-.DS_Store
