@@ -24,3 +24,5 @@ venv/bin/easy_install
 venv/bin/pip3
 *.csh
 *.json
+.DS_Store
+.DS_Store
