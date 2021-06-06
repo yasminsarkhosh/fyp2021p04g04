@@ -1,0 +1,95 @@
+---------------------------------
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='warn', tol=0.0001, verbose=0,
+                   warm_start=False)
+-----------------------------------
+fit_time  mean  1.0137659708658855
+fit_time  std  0.1417262958465369
+score_time  mean  0.006305615107218425
+score_time  std  0.0032006823957874725
+test_score  mean  0.6732966056308854
+test_score  std  0.0015266758265905546
+---------------------------------
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+    kernel='rbf', max_iter=-1, probability=False, random_state=None,
+    shrinking=True, tol=0.001, verbose=False)
+-----------------------------------
+fit_time  mean  14.341768264770508
+fit_time  std  0.30800520333941667
+score_time  mean  6.07120402654012
+score_time  std  0.16408372563255552
+test_score  mean  0.6784997364164159
+test_score  std  0.0012202838973846763
+---------------------------------
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+    decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+    kernel='rbf', max_iter=-1, probability=False, random_state=None,
+    shrinking=True, tol=0.001, verbose=False)
+-----------------------------------
+fit_time  mean  14.23723292350769
+fit_time  std  0.15316451726389183
+score_time  mean  5.93108073870341
+score_time  std  0.050595250903166314
+test_score  mean  0.6784997364164159
+test_score  std  0.0012202838973846763
+---------------------------------
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=3, p=2,
+                     weights='uniform')
+-----------------------------------
+fit_time  mean  0.010808149973551432
+fit_time  std  0.0004506142821921052
+score_time  mean  1.6233805020650227
+score_time  std  0.15696235032099398
+test_score  mean  0.6808490957137302
+test_score  std  0.0020964573135127027
+---------------------------------
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+-----------------------------------
+fit_time  mean  4.0378345648447675
+fit_time  std  0.3674931055692405
+score_time  mean  0.007805347442626953
+score_time  std  0.00010906149460464463
+test_score  mean  0.6963744404272342
+test_score  std  0.002644915152916832
+---------------------------------
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators='warn',
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+-----------------------------------
+fit_time  mean  2.132997512817383
+fit_time  std  0.13546367938431145
+score_time  mean  0.04322012265523275
+score_time  std  0.0035679170680199324
+test_score  mean  0.7325444034208015
+test_score  std  0.00316588193264528
+---------------------------------
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='deviance', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_impurity_split=None,
+                           min_samples_leaf=1, min_samples_split=2,
+                           min_weight_fraction_leaf=0.0, n_estimators=100,
+                           n_iter_no_change=None, presort='auto',
+                           random_state=None, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+-----------------------------------
+fit_time  mean  15.073756059010824
+fit_time  std  0.38369775873972156
+score_time  mean  0.013455947240193685
+score_time  std  0.000965066386893194
+test_score  mean  0.7476510103804764
+test_score  std  0.0038990734027273795
